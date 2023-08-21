@@ -16,10 +16,10 @@ body {
 .main {
     display: flex;
     flex-flow: column;
-    width: 85%;
+    width: 80%;
 }
 .menu {
-    width: 15%;
+    width: 20%;
     background-color: aqua;
     padding: 10px 20px 0px;
 }
@@ -32,7 +32,63 @@ body {
     min-height: 300px;
     padding: 20px;
 }
+
+.content-two {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    display: flex;
+}
+
+.content-two > div {
+    width: 50%;
+}
 .footer {
     background-color: rgb(99, 56, 240);
     min-height: 150px;
+    display: flex;
+    text-align: center;
 }
+
+.footer div {
+    width: 50%;
+}
+
+table {
+    border: 1px solid gray;
+}
+
+table thead {
+    background-color: black;
+    color: white;
+}
+
+table thead tr th {
+    border:1px solid rgba(128, 128, 128, 0.432);
+}
+
+table tbody tr td {
+    border: 1px solid rgba(128, 128, 128, 0.212);
+}
+
+table tbody tr:nth-child(even) td {
+    background-color: rgba(128, 128, 128, 0.103);
+}
+
+table tbody tr:hover {
+    background-color: rgba(128, 128, 128, 0.233);
+}
+
+form {
+    width: 100%;
+}
+
+form input {
+    width: 90%;
+}
+
+form textarea {
+    width: 90%;
+}
+
+
